@@ -1,0 +1,44 @@
+🔌 Hardware Connections
+Components Required
+Arduino Uno
+2 × HC-SR04 Ultrasonic Sensors
+USB Cable
+Jumper Wires
+Breadboard (Optional)
+Computer/Laptop
+📡 Circuit Connections
+Left Ultrasonic Sensor (Volume Control)
+HC-SR04 Pin	Arduino Uno Pin
+VCC	5V
+GND	GND
+TRIG	Digital Pin 9
+ECHO	Digital Pin 10
+Right Ultrasonic Sensor (Seek Control)
+HC-SR04 Pin	Arduino Uno Pin
+VCC	5V
+GND	GND
+TRIG	Digital Pin 11
+ECHO	Digital Pin 12
+🔋 Power Connections
+Connect both VCC pins of the ultrasonic sensors to the 5V pin on the Arduino.
+Connect both GND pins of the ultrasonic sensors to the GND pin on the Arduino.
+Connect the Arduino to the computer using a USB cable.
+📌 Pin Summary
+Component	Arduino Pin
+Left Sensor TRIG	D9
+Left Sensor ECHO	D10
+Right Sensor TRIG	D11
+Right Sensor ECHO	D12
+Both Sensor VCC	5V
+Both Sensor GND	GND
+⚙️ Working Connection
+The Arduino Uno powers both HC-SR04 ultrasonic sensors.
+Each sensor continuously measures the distance between the sensor and the user's hand.
+The left sensor is used for Volume Control.
+The right sensor is used for Seek Control (Rewind/Fast Forward).
+The Arduino processes the measured distances and recognizes predefined gestures.
+The detected gesture is transmitted to the computer through USB serial communication.
+A Python script receives the serial data and sends the corresponding keyboard shortcuts to VLC Media Player.
+VLC executes the requested action, enabling touchless media control.
+
+Note: If your Arduino code uses different pin numbers (TRIG/ECHO), replace the pin assignments in the tables above with the ones from your code.
