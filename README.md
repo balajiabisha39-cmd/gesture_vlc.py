@@ -235,7 +235,7 @@ If you found this project useful, please consider giving this repository a **⭐
 **Balaji K**  
 Electronics and Communication Engineering (ECE)
 
-📧 Email: your-balajiabisha39@gmail.com
+📧 Email: balajiabisha39@gmail.com
 
 🔗 LinkedIn: https://https://www.linkedin.com/in/balaji-k-70230533b?utm_source=share_via&utm_content=profile&utm_medium=member_android
 
